@@ -4,8 +4,8 @@ import joblib, numpy as np, pandas as pd
 
 app = FastAPI(title="Car Price Predictor")
 
-model = joblib.load("car_price_model.pkl")
-preprocessor = joblib.load("preprocessor.pkl")
+model = joblib.load("C:\AI_Project\MACHINE_LEARNING\artifacts\model\car_price_model.pkl")
+preprocessor = joblib.load("C:\AI_Project\MACHINE_LEARNING\ML_Models\preprocessor.pkl")
 
 class CarInput(BaseModel):
     brand: str
