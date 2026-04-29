@@ -28,7 +28,6 @@ plotly
 bokeh
 missingno
 sweetviz
-ydata-profiling
 jupyter
 ipykernel
 notebook
